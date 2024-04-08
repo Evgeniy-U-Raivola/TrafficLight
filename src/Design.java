@@ -12,7 +12,7 @@ public class Design extends JPanel{
             Graphics2D g1 = (Graphics2D) g;
             //  корпус + фонари + основание
             g1.setColor(Color.BLACK);
-            g1.fill(new RoundRectangle2D.Double(148, 84, 120, 318, 20, 20));
+            g1.fillRoundRect(148,84,120,318,20,20);
             g1.fillRoundRect(183,408,51,63,20,20);
             g1.setColor(Color.RED);
             g1.fill(new Ellipse2D.Double(172,110,75,75));
